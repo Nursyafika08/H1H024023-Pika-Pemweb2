@@ -1,5 +1,3 @@
-# H1H024023-Pika-Pemweb2
-
 Tugas Praktikum Pemrograman Web II.
 
 ## Identitas
