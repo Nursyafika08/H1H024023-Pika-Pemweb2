@@ -3,17 +3,13 @@
 Repository tugas Praktikum Pemrograman Web II.
 
 ## Identitas
-
 - Nama: Nursyafika
 - NIM: H1H024023
 - Program Studi: Teknik Komputer
 
-## Isi Repository
-
 Repository ini berisi dua project hasil praktikum:
 
 ### 1. Laravel
-
 Folder:
 `latihan-laravel`
 
@@ -31,7 +27,6 @@ Endpoint:
 `GET /api/mahasiswa`
 
 ## Teknologi yang Digunakan
-
 - PHP
 - Laravel
 - Go
@@ -41,6 +36,5 @@ Endpoint:
 - GitHub
 
 ## Repository
-
 GitHub:
 https://github.com/Nursyafika08/H1H024023-Pika-Pemweb2
