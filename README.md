@@ -1,13 +1,12 @@
 # H1H024023-Pika-Pemweb2
 
-Repository tugas Praktikum Pemrograman Web II.
+Tugas Praktikum Pemrograman Web II.
 
 ## Identitas
 - Nama: Nursyafika
 - NIM: H1H024023
 - Program Studi: Teknik Komputer
 
-Repository ini berisi dua project hasil praktikum:
 ### 1. Laravel
 Folder:
 `latihan-laravel`
