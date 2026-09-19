@@ -8,7 +8,6 @@ Repository tugas Praktikum Pemrograman Web II.
 - Program Studi: Teknik Komputer
 
 Repository ini berisi dua project hasil praktikum:
-
 ### 1. Laravel
 Folder:
 `latihan-laravel`
