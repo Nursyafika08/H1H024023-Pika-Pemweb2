@@ -1,6 +1,5 @@
 Tugas Praktikum Pemrograman Web II.
 
-## Identitas
 - Nama: Nursyafika
 - NIM: H1H024023
 - Program Studi: Teknik Komputer
