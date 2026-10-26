@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\User;
+use App\Models\Mahasiswa;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -10,16 +10,20 @@ class DatabaseSeeder extends Seeder
 {
     use WithoutModelEvents;
 
-    /**
-     * Seed the application's database.
-     */
     public function run(): void
     {
-        // User::factory(10)->create();
+        // 1. Jalankan seeder master (Program Studi & Mata Kuliah)
+        $this->call([
+            ProgramStudiSeeder::class,
+            MataKuliahSeeder::class,
+        ]);
 
-        User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+        // 2. Buat data dummy 30 Mahasiswa
+        Mahasiswa::factory()->count(30)->create();
+
+        // 3. Jalankan seeder tabel pivot (Mahasiswa - Mata Kuliah)
+        $this->call([
+            MahasiswaMatakuliahSeeder::class,
         ]);
     }
 }
